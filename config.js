@@ -1,0 +1,22 @@
+config = {
+        LESS : "../src/less/*.less",
+        CSS : "../src/css/",
+        JS : "../src/js/**/*.js",
+        concatcssList : ['!../src/css/libs','../src/css/layout.css','../src/css/common.css','../src/css/izitoast.css','../src/css/user.css'],
+        concatJSlist : ['../src/js/*.js','!../src/js/libs','!../src/js/plugins'],
+        distCSSFolder : "../dist/css/",
+        distJSFolder : "../dist/js/",
+        distIMGFolder : "../dist/images/",
+        srclibsJS : "../src/js/libs/*.js",
+        distlibsJS : "../dist/js/libs/",
+        srclibsCSS : "../src/css/libs/*.css",
+        distlibsCSS : "../dist/css/libs/",
+        srcIMG : "../src/images/**/*.+(jpeg|jpg|png|gif)",
+        distIMGFolder : "../dist/images/",
+        srcAllHtml : "../src/**/*.html",
+        srcFloder : "../src",
+        favicon : "../src/favicon.ico",
+        distHTML : "../dist/**/*.html",
+        distFolder : "../dist"
+};
+module.exports = config;
